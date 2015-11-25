@@ -1,0 +1,45 @@
+<template name="messages">
+    {{#ionHeaderBar}}
+      <h2 class="title">Messages</h2>
+    {{/ionHeaderBar}}
+
+  {{#ionView}}
+    
+
+	{{#ionContent}}
+	  {{#ionList}}
+	    {{#each times}}
+	    
+	  <a class="send-message" href="/message/1">
+	    
+      <div class="list card">
+
+		  <div class="item item-avatar" style="margin-bottom:5px;" path="message">
+		    
+		    <img class="img-avatar" src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
+		    
+		    <div class="info-person">
+		    	<div class="name item-span-right">
+			    	<span clase="name-person" >Pretty Hate Machine</span>
+			    	
+			    	<span class="status-online">online</span>
+		    	</div>
+		    
+		    <p>Nine Inch Nails</p>
+		    <p>2 hours remaining</p>
+		    </div>
+		    
+		  </div>
+		</div>
+      </a>
+      	 
+	    {{/each}}
+	  {{/ionList}}
+	{{/ionContent}}
+    
+  {{/ionView}}
+  
+  
+  
+  
+</template>

@@ -1,0 +1,15 @@
+<template name="tabs">
+        {{#if isAndroid }}
+   {{#ionTabs style="android" class="tabs-background-positive tabs-color-light tabs-icon-only"}}
+     {{> ionTab path="search" icon="search"}}
+     {{> ionTab path="messages" icon="chatboxes"}}
+     {{> ionTab path="person" icon="ios-person"}}
+   {{/ionTabs}}
+ {{else}}
+   {{#ionTabs class="tabs-icon-only tabs-stable tabs-remove-class"}}
+     {{> ionTab path="search" icon="search"}}
+     {{> ionTab path="messages" icon="chatboxes"}}
+     {{> ionTab class="tab-sidemenu" icon="ios-person"}}
+   {{/ionTabs}}
+ {{/if}}
+ </template>

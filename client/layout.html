@@ -1,0 +1,34 @@
+<template name="layout">
+  {{#ionBody}}
+
+
+{{#ionSideMenuContainer}}
+
+      {{#ionSideMenus}}
+
+       
+        {{#ionSideMenu side="right"}}
+        {{> person}}
+        {{/ionSideMenu}}
+
+      {{/ionSideMenus}}
+
+      {{#ionSideMenuContent}}
+			{{#ionNavView}}
+          {{> yield}}
+          {{> tabs}}          
+		{{/ionNavView}}
+        
+
+      {{/ionSideMenuContent}}
+
+    {{/ionSideMenuContainer}}
+
+
+        
+
+    
+
+
+  {{/ionBody}}
+</template>
