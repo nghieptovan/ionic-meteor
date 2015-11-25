@@ -3,6 +3,8 @@ $loading-font-size: 22px;
 $color-font: #73d331;
 $color-white: #fff;
 
+
+
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/_ionic';
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/_ionicons';
 
@@ -127,6 +129,7 @@ $color-white: #fff;
     text-align: center;
     height: 40px;
     padding: 10px;
+    z-index: 10;
 }
 .view{
 	/*z-index: 10 !important;*/
@@ -190,26 +193,66 @@ background-image: url('/images/bg.png');
 	    z-index: 100;
 	    position: relative;
 	    margin-left: 10px;
+	}
+	.user-information-modal{
+		@extend .user-information;
+		margin-top: -130px;
+	}
+	.header-modal-profile
+	{
+		@extend .header-modal;
+		text-align: justify;
 	}	
 	.info-user:before
 	{
 		border-left: 570px solid #fff;
+		border-top: 200px solid transparent;
 	    width: 100%;
 	    height: auto;
 	    position: absolute;
-	    content: '';
-	    border-top: 200px solid transparent;
+	    content: '';	    
 	    bottom: 0;
 	}
-	.info-user2:before
+
+	.top-avatar{
+		background-color: #f1f1f1;
+		height: 260px;
+		width: 100%;
+		position: relative;
+		top:0px;
+	}
+	.top-avatar img
 	{
-	    border-left: 1000px solid #fff;
+	    border-radius: 100%;
+	    width: 100px;
+	    height: 100px;
+	    margin-left: 85px;
+	    margin-top: 30px;
+	    border: 4px solid #fff;
+	}
+	.top-avatar:before
+	{
+	    border-left: 400px solid #fff;
+	    border-top: 100px solid transparent;
 	    width: 100%;
 	    height: auto;
 	    position: absolute;
 	    content: '';
-	    border-top: 410px solid transparent;
 	    bottom: 0;
+	}
+	.content-person{
+		width: 100%;
+		position: relative;
+	}
+	.top-avatar p
+	{
+		text-align: center;
+		font-size:18px;
+		color:#c2c2c2;
+	}
+	#profile-modal .tag-name{
+	    position: relative;
+    	margin-top: 20px;	
 	}
 	
 }

@@ -1,12 +1,36 @@
 <template name="person">
-<div class="info-user2">
-	  	<img class="img-background" src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
-	  </div>
-<div class="list listSideMenu">
-        
-          <div class="item" data-ion-menu-close>
-            Log Out
-          </div>
-        </div>
-
+	<div class="person">
+		<div class="top-avatar">
+			<img data-ion-modal="profileModal" src="images/avt.png"><br>
+			<p>Michael</p>
+		</div>
+		
+		<div class="content-person">
+				<div class="list card">
+			
+			  <a data-ion-modal="profileModal" href="#" class="item item-icon-left">
+			    <i class="icon ion-ios-person-outline"></i>
+			    Profile
+			  </a>
+			
+			  <a href="/payment" class="item item-icon-left">
+			    <i class="icon ion-ios-telephone"></i>
+			    Payment
+			  </a>
+			
+			  <a href="/settings" class="item item-icon-left">
+			    <i class="icon ion-ios-gear-outline"></i>
+			    Settings
+			  </a>
+			
+			</div>
+		</div>
+		<div class="bar bar-footer padding">
+		  <button class="button button-block button-dark" data-ion-menu-close>
+			  Become a Listener
+			</button>
+		</div>	
+	</div>
+	
+	  
 </template>
