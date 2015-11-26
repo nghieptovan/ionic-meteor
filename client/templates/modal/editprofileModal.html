@@ -1,0 +1,46 @@
+<template name="editprofileModal">
+  {{#ionModal title="" customTemplate=true}}
+    <div class="bar bar-header bar-stable">
+    	<a data-dismiss="modal" class="button icon-left ion-chevron-left button-clear button-dark"></a>
+        <h2 class="title">Edit profile</h2>
+        <a data-dismiss="modal" class="button icon-right">DONE</a>
+      </div>
+      <div class="bar bar-subheader bar-stable">
+		  PROFILE
+		</div>
+		
+		 <div class="content has-header has-subheader overflow-scroll stable-bg">
+			 <div class="list">
+			  <label class="item item-input">
+			    <span class="input-label">First name</span>
+			    <input type="text">
+			  </label>
+			  <label class="item item-input">
+			    <span class="input-label">Last name</span>
+			    <input type="password">
+			  </label>
+			  <label class="item item-input">
+			    <span class="input-label">Location</span>
+			    <input type="password">
+			  </label>
+			  <label class="item item-input">
+			    <span class="input-label">Email</span>
+			    <input type="password">
+			  </label>
+			  <label class="item item-divider">
+			   <span>YOUR INTERESTS</span>
+			  </label>
+			  <label class="item item-input">
+			    <input type="text" placeholder="First Name">
+			  </label>
+			  
+			</div>
+		<div class="row tag-name light-bg">
+	  	<span>international</span><span>friendship</span><span>health care</span><br>
+	  </div>
+
+		 </div>
+		
+		
+  {{/ionModal}}
+</template>

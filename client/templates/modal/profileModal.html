@@ -1,0 +1,36 @@
+<template name="profileModal">
+  {{#ionModal customTemplate=true}}
+  
+  <div id="profile-modal">
+  			<div class="header-modal-profile">
+          	<icon data-dismiss="modal" class="ion-close-round app-font-color-white" style="font-size:32px;"></icon>
+          	<button data-ion-modal="editprofileModal" class="button button-small" style="float:right;">
+			  Edit profile
+			</button>
+          </div>
+          
+          
+
+          <div class="info-user">
+		  	<img class="img-background" src="images/avt.png">
+		  </div> 
+	  
+	  <div class="row user-information">
+	  <div>
+	  
+			  	<span class="user-name">Adam Blackwel</span><br>
+			  	<icon class="ion-location app-font-color"></icon><span class="user-address">San Francisco, CA</span>
+	  </div>
+			  	
+	  </div>
+	  
+	  
+	
+	  <div class="row tag-name">
+	  	<span>international</span><span>friendship</span><span>health care</span>
+	  </div>
+  </div>
+          
+  {{/ionModal}}
+ 
+</template>

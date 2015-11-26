@@ -47,8 +47,13 @@ $color-white: #fff;
   max-width: 60px !important;
   border: solid 3px #73d331;
   }
-.info-person{
-    margin-left: 10px;
+.info-person {
+    width: 100%;
+}
+.avatar-person
+{
+	min-width:90px;
+	margin:10px 0px;
 }
 .status-online{
     position: relative;
@@ -68,6 +73,7 @@ $color-white: #fff;
 .img-background{
 	width:100%;
 	height:auto;
+	max-height:400px;
 }
 
 
@@ -187,34 +193,18 @@ background-image: url('/images/bg.png');
 	{
 		position: relative !important;
 	}
-@media screen and (max-width: 320px) {
-	.user-information{
-	    margin-top: -150px;
-	    z-index: 100;
-	    position: relative;
-	    margin-left: 10px;
-	}
-	.user-information-modal{
-		@extend .user-information;
-		margin-top: -130px;
-	}
-	.header-modal-profile
-	{
-		@extend .header-modal;
-		text-align: justify;
-	}	
-	.info-user:before
-	{
-		border-left: 570px solid #fff;
-		border-top: 200px solid transparent;
-	    width: 100%;
-	    height: auto;
-	    position: absolute;
-	    content: '';	    
-	    bottom: 0;
-	}
-
-	.top-avatar{
+.active-border{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color:#39B4CC;
+    background-image:
+        linear-gradient(91deg, transparent 50%, #A2ECFB 50%),
+        linear-gradient(90deg, #A2ECFB 50%, transparent 50%);
+}
+.top-avatar{
 		background-color: #f1f1f1;
 		height: 260px;
 		width: 100%;
@@ -250,6 +240,35 @@ background-image: url('/images/bg.png');
 		font-size:18px;
 		color:#c2c2c2;
 	}
+	.header-modal-profile
+	{
+		@extend .header-modal;
+		text-align: justify;
+	}
+@media screen and (max-width: 320px) {
+	.user-information{
+	    margin-top: -150px;
+	    z-index: 100;
+	    position: relative;
+	    margin-left: 10px;
+	}
+	.user-information-modal{
+		@extend .user-information;
+		margin-top: -130px;
+	}
+		
+	.info-user:before
+	{
+		border-left: 570px solid #fff;
+		border-top: 200px solid transparent;
+	    width: 100%;
+	    height: auto;
+	    position: absolute;
+	    content: '';	    
+	    bottom: 0;
+	}
+
+	
 	#profile-modal .tag-name{
 	    position: relative;
     	margin-top: 20px;	

@@ -1,0 +1,44 @@
+<template name="settingsModal">
+  {{#ionModal title="Settings" customTemplate=true}}
+    <div class="bar bar-header bar-stable">
+    	<a data-dismiss="modal" class="button icon-left ion-chevron-left button-clear button-dark"></a>
+        <h2 class="title">Settings</h2>
+      </div>
+          
+
+          <div class="content has-header overflow-scroll">
+          
+          <div class="item" href="#">
+    Push notification
+    <label class="toggle toggle-positive pull-right" style="float:right;">
+             <input type="checkbox" checked="checked">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+  </div>
+          
+	          <div class="list" style="text-align:center;">
+
+  <div class="item item-divider"></div>
+<div class="item">
+    Delete account
+  </div>
+<div class="item">
+    Help center
+  </div>
+  <div class="item">
+    Terms and privacy
+  </div>
+  <div class="item item-divider"></div>
+  <div data-dismiss="modal" class="item">
+    Log out
+  </div>
+  
+</div>
+		</div>
+
+          
+  {{/ionModal}}
+ 
+</template>
