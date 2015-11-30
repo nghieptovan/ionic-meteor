@@ -7,7 +7,7 @@ $color-white: #fff;
 
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/_ionic';
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/_ionicons';
-
+@import 'circle.css';
 .ionic-body.platform-android {
   font-family: "Roboto", sans-serif;
 
@@ -49,6 +49,7 @@ $color-white: #fff;
   }
 .info-person {
     width: 100%;
+    margin-left:10px;
 }
 .avatar-person
 {
