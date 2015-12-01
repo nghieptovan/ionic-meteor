@@ -3,7 +3,13 @@ Template.tabs.rendered = function () {
 };
 Template.tabs.events({
     'click .tab-sidemenu': function(e){
-    	IonSideMenu.snapper.open('right');
+    	var user = Meteor.user();
+    	if(user){
+    		IonSideMenu.snapper.open('right');    		
     	}
+    	else{
+    		Router.go('signin');
+    	}	
+    }
 	
 });

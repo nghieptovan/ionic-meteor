@@ -1,22 +1,56 @@
 <template name="message">
-    {{#ionHeaderBar}}
+    {{#ionHeaderBar class="light-bg"}}
      <a class="send-message" href="/messages"><button path="messages" class="buttons button button-clear back-button pull-left button-entering button-active">
     <i class="icon ion-ios-arrow-back"></i>
   </button></a>
       <h2 class="title">Sarah</h2>
-     {{> yield region='nav'}}
     {{/ionHeaderBar}}
 	
   {{#ionView}}
     
 
-	{{#ionContent}}
-sssssssssssssss
+	{{#ionContent class="stable-bg"}}
 
-<label class="item item-input">
-  <span class="input-label">Username</span>
-  <input type="text">
-</label>
+            
+              <div class="message-wrapper">
+      
+                  <div>
+                      
+                    <img class="profile-pic left" src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320"/>
+      
+                      <div class="chat-bubble left">
+      
+                          <div class="message">Hi there
+                          </div>
+      
+                          <div class="message-detail">
+                              <span class="bold">Person1</span>
+                          </div>
+      
+                      </div>
+                  </div>
+      
+                  <div>
+                    
+                       <img class="profile-pic right" src="images/avt.png"/>
+                    
+                      <div class="chat-bubble right">
+      
+                          <div class="message">How are you?
+                          </div>
+      
+                          <div class="message-detail">
+                              <span class="bold">Person2</span>
+                          </div>
+      
+                      </div>
+                    
+                  </div>
+      
+ 
+      
+              </div>
+     
 	{{/ionContent}}
     
   {{/ionView}}

@@ -1,4 +1,4 @@
-<template name="layout">
+<template name="masterLayout">
   {{#ionBody}}
 
 
@@ -15,10 +15,11 @@
 
       {{#ionSideMenuContent}}
       
-			{{#ionNavView}}
-			
-          {{> yield}}
-          {{> tabs}}          
+			{{#ionNavView class="abcdef"}}
+
+				{{> yield}}
+
+          {{> yield region="tabs"}}          
 		{{/ionNavView}}
         
 

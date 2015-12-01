@@ -28,3 +28,4 @@ accounts-password
 accounts-google
 service-configuration
 useraccounts:iron-routing
+aldeed:template-extension
