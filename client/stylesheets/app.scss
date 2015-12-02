@@ -3,21 +3,27 @@ $loading-font-size: 22px;
 $color-font: #73d331;
 $color-white: #fff;
 
-
+@import 'fonts.css';
+@import 'circle.css';
 
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/_ionic';
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/_ionicons';
-@import 'circle.css';
+// Typography for Sous
+// An example of self-hosting instead of relying on a webfont service
+body, .ionic-body {
+    font-family: "lato" !important;
+}
+
 .ionic-body.platform-android {
-  font-family: "Roboto", sans-serif;
+  font-family: "lato", sans-serif;
 
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Roboto", sans-serif;
+    font-family: "lato", sans-serif;
   }
 
   .tab-item {
-    font-family: "Roboto", sans-serif;
+    font-family: "lato", sans-serif;
   }
 }
 

@@ -29,3 +29,4 @@ accounts-google
 service-configuration
 useraccounts:iron-routing
 aldeed:template-extension
+zimme:active-route
