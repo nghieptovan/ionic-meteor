@@ -12,6 +12,7 @@ $color-white: #fff;
 // An example of self-hosting instead of relying on a webfont service
 body, .ionic-body {
     font-family: "lato" !important;
+    background-image: url('/images/bg.jpg');
 }
 
 .ionic-body.platform-android {
@@ -56,10 +57,23 @@ body, .ionic-body {
 .info-person {
     width: 100%;
     margin-left:10px;
+    
+}
+.no-border{
+	text-decoration: none;
+}
+.messages-div{
+	margin-bottom: 5px !important;
+}
+.message-div{
+	background-color: #f1f1f1;
+}
+.info-person p{
+	color: #d3d3d3;
 }
 .avatar-person
 {
-	min-width:90px;
+	min-width:70px;
 	margin: 5px 3px;
 }
 .status-online{
@@ -72,7 +86,12 @@ body, .ionic-body {
     border-radius: 6px;
     display: inline-block; 
 }
-
+.status{
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .send-message{
 	text-decoration: none;
 }
@@ -91,6 +110,11 @@ body, .ionic-body {
 .second-message{
  color: #73d331;
  font-weight: 400;
+ font-size:1.2em;
+}
+.tag-name{
+	margin: 0px 5px;
+	border: 0 !important;
 }
 .tag-name span{
 	margin: 0px 10px;
@@ -147,9 +171,7 @@ body, .ionic-body {
 .view{
 	/*z-index: 10 !important;*/
 }
-.modal-bg{
-background-image: url('/images/bg.png');
-}
+
 .content-modal
 {
 	position: relative;
@@ -252,6 +274,14 @@ background-image: url('/images/bg.png');
 		@extend .header-modal;
 		text-align: justify;
 	}
+.qoute-class{
+	font-size: 12px;
+    position: relative;
+    top: -5px;
+    padding: 0 5px;
+    transform: rotate(180deg);
+}	
+	
 @media screen and (max-width: 320px) {
 	.user-information{
 	    margin-top: -150px;
@@ -266,13 +296,16 @@ background-image: url('/images/bg.png');
 		
 	.info-user:before
 	{
-		border-left: 570px solid #fff;
-		border-top: 200px solid transparent;
-	    width: 100%;
-	    height: auto;
-	    position: absolute;
-	    content: '';	    
-	    bottom: 0;
+		    border-left: 480px solid #fff;
+		    border-left-width: 480px;
+		    border-left-style: solid;
+		    border-left-color: rgb(255, 255, 255);
+		    border-top: 200px solid transparent;
+		    width: 100%;
+		    height: auto;
+		    position: absolute;
+		    content: '';
+		    bottom: 0;
 	}
 
 	

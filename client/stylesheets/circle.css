@@ -5,14 +5,15 @@
   box-sizing: border-box;
 }
 .set-size {
-  font-size: 10em;
+  font-size: 8em;
 }
 .imgthumb > img {
     border-radius: 50%;
-    height: 70px;
-    margin: 14px;
+    border: 1px #fff solid;
+    height: 60px;
+    margin: 9px;
     position: absolute;
-    width: 70px;
+    width: 60px;
 }
 .charts-container:after {
   clear: both;
@@ -39,7 +40,7 @@
 .pie-wrapper .pie .half-circle {
   height: 100%;
   width: 100%;
-  border: 0.1em solid #ccc;
+  border: 0.08em solid #c1c1c1;
   border-radius: 50%;
   clip: rect(0, 0.35em, 0.7em, 0);
   left: 0;
@@ -68,10 +69,10 @@
   vertical-align: super;
 }
 .pie-wrapper .shadow {
-  height: 100%;
-  width: 100%;
-  border: 0.2em solid green;
-  border-radius: 50%;
+  	height: 100%;
+    width: 100%;
+    border: 0.08em solid #73d331;
+    border-radius: 50%;
 }
 .pie-wrapper.style-2 .label {
   background: none;
@@ -363,28 +364,34 @@ img.profile-pic.right {
 }
 
 .chat-bubble.left {
-  background-color: #e6e5eb;
+  background-color: #fff;
   float: left;
   margin-left: 55px;
 }
 
 .chat-bubble.left:before {
-  background-color: #e6e5eb;
-  left: 10px;
-  -webkit-transform: rotate(70deg) skew(5deg);
+  background-color: #fff;
+  left: -2px;
+  top: 2px;
+  -webkit-transform: rotate(41deg);
+  -ms-transform: rotate(41deg);
+          transform: rotate(41deg);
 }
 
 .chat-bubble.right {
-  background-color: #158ffe;
+  background-color: #434343;
   color: #fff;
   float: right;
   margin-right: 55px;
 }
 
 .chat-bubble.right:before {
-  background-color: #158ffe;
-  right: 10px;
-  -webkit-transform: rotate(118deg) skew(-5deg);
+  background-color: #434343;
+  right: -2px;
+  top: 2px;
+  -webkit-transform: rotate(139deg);
+  -ms-transform: rotate(139deg);
+          transform: rotate(139deg);
 }
 
 .chat-bubble.right a.autolinker {
@@ -406,4 +413,24 @@ img.profile-pic.right {
   vertical-align: middle;
   position: relative;
   top: -3px;
+}
+.profile-pic.left {
+    left: 10px;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+}
+.profile-pic.right {
+    right: 10px;
+}
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
 }
