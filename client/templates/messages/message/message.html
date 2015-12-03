@@ -1,53 +1,133 @@
-<template name="message">
-    {{#ionHeaderBar class="light-bg"}}
-     <a class="send-message" href="/messages"><button path="messages" class="buttons button button-clear back-button pull-left button-entering button-active">
-    <i class="icon ion-ios-arrow-back"></i>
-  </button></a>
-      <h2 class="title">Sarah</h2>
-    {{/ionHeaderBar}}
+<template name="message"> {{#ionHeaderBar class="light-bg"}}
+<a class="send-message" href="/messages"><button path="messages"
+		class="buttons button button-clear back-button pull-left button-entering button-active">
+		<i class="icon ion-ios-arrow-back"></i>
+	</button></a>
+<h2 class="title">Sarah</h2>
+{{/ionHeaderBar}} {{#ionView class="no-footer"}} {{#ionContent class="message-div"}}
+
+
+<div class="padding">
+	<ul class="list">
+		<li class="item item-message">
+			<div>
+				<h4 class="time">9/25 13:40</h4> <img class="profile-pic left"
+					src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320" />
+
+				<div class="chat-bubble left">
+
+					<div class="message">Hey there! What's up!?</div>
+				</div>
+			</div>
+		</li>
+
+		<li class="item item-message">
+			<div>
+
+				<h4 class="time">9/25 13:45</h4>
+
+				<div class="chat-bubble right">
+
+					<div class="message">Which martial art is best to learn for the sefl defence?</div>
+
+				</div>
+
+			</div>
+		</li>
+		<li class="item item-message">
+			<div>
+				<h4 class="time">9/25 13:47</h4> <img class="profile-pic left"
+					src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320" />
+
+				<div class="chat-bubble left">
+
+					<div class="message">I personally think Krav Maga is the best martial art style. Krav Maga is designed to quickly neutralize threats. The moves aren't flashly; they're simple and often dirty.</div>
+				</div>
+
+			</div>
+		</li>
+		<li class="item item-message">
+			<div>
+
+				<h4 class="time">9/25 13:50</h4>
+
+				<div class="chat-bubble right">
+
+					<div class="message">Awesome! Thanks</div>
+
+				</div>
+
+			</div>
+		</li>
+		<li class="item item-message">
+			<div>
+				<h4 class="time">9/25 13:47</h4> <img class="profile-pic left"
+					src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320" />
+
+				<div class="chat-bubble left">
+
+					<div class="message">I personally think Krav Maga is the best martial art style. Krav Maga is designed to quickly neutralize threats. The moves aren't flashly; they're simple and often dirty.</div>
+				</div>
+
+			</div>
+		</li>
+		<li class="item item-message">
+			<div>
+
+				<h4 class="time">9/25 13:50</h4>
+
+				<div class="chat-bubble right">
+
+					<div class="message">Awesome! Thanks</div>
+
+				</div>
+
+			</div>
+		</li>
+		
+		<li class="item item-message">
+			<div>
+
+				<h4 class="time">9/25 13:55</h4>
+
+				<button class="button button-full button-small button-light app-font-color">You finished the conversation</button>
+
+			</div>
+		</li>
+		
+		<li class="item item-message">
+			<div>
+
+				<h4 class="time">9/25 14:00</h4>
+				<div class="rating-chat">
+				<h5>fsdfs</h5>
+					<img src="images/avt.png" />
+					
+					<h5>fdsfdsf</h5>
+				</div>
+				
+
+			</div>
+		</li>
+	</ul>
+
+
+
+
+
+
+</div>
+
+{{/ionContent}} {{/ionView}}
+
+<div class="bar bar-footer">
+	<div class="row">
+		<div class="col"><icon class="ion-plus"></icon></div>
+		<div class="col col-80"><span>Send Request to start chat</span></div>
+		<div class="col"><icon class="ion-plus"></icon></div>
+	</div>
 	
-  {{#ionView}}
-    
+  
+</div>
 
-	{{#ionContent class="message-div"}}
-
-            
-              <div class="message-wrapper">
-      
-                  <div>
-                      
-                    <img class="profile-pic left" src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320"/>
-      
-                      <div class="chat-bubble left">
-      
-                          <div class="message">
-                          	Hi there
-                          </div>
-                      </div>
-                  </div>
-      
-                  <!-- <div>
-                    
-                       <img class="profile-pic right" src="images/avt.png"/>
-                    
-                      <div class="chat-bubble right">
-      
-                          <div class="message">How are you?
-                          </div>
-      
-                      </div>
-                    
-                  </div> -->
-      
- 
-      
-              </div>
-     
-	{{/ionContent}}
-    
-  {{/ionView}}
-  
-  
-  
-  
-</template>
+ </template>
