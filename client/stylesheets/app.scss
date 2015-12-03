@@ -96,17 +96,22 @@ body, .ionic-body {
 .send-message{
 	text-decoration: none;
 }
-
+.send-request{
+	bottom:19px;
+}
+.icon-videocam{
+	font-size: 2em;
+    bottom: 5px;
+    position: relative;
+    color: #fff;
+    background-color: #33cd5f;
+    padding: 0 15px;
+    border-radius: 5px;
+}
 .img-background{
 	width:100%;
 	height:auto;
 	max-height:400px;
-}
-
-
-.request-chat
-{
-	background-color: #73d331;
 }
 .second-message{
  color: #73d331;
@@ -306,6 +311,13 @@ body, .ionic-body {
 	height:175px;
 	margin-top:30px;
 	position:relative;
+}
+.request-chat{
+	height:20px;
+	background-color: $color-font;
+}
+.send-chat{
+	bottom:18px;
 }	
 @media screen and (max-width: 320px) {
 	.user-information{
