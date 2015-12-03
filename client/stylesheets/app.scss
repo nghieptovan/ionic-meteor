@@ -70,27 +70,28 @@ body, .ionic-body {
 }
 .info-person p{
 	color: #d3d3d3;
+	margin: 0;
+	position: relative;
+    bottom: 10px;
+    left:10px;
 }
 .avatar-person
 {
 	min-width:70px;
-	margin: 5px 3px;
+	margin: 8px 3px;
 }
 .status-online{
-    position: relative;
-    float: right;
-    background-color: #73d331;
-    color: #fff;
-    padding: 2px 5px;
-    background-size: 87%;
-    border-radius: 6px;
-    display: inline-block; 
+	padding: 0 5px;
+	color: #fff;    
+    background-color: #99ca3c;
+	border: 0;
 }
 .status{
     max-width: 180px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: #2a2a2a !important;
 }
 .send-message{
 	text-decoration: none;

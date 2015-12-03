@@ -71,7 +71,7 @@
 .pie-wrapper .shadow {
   	height: 100%;
     width: 100%;
-    border: 0.08em solid #73d331;
+    border: 0.08em solid #99ca3c;
     border-radius: 50%;
 }
 .pie-wrapper.style-2 .label {
@@ -302,21 +302,7 @@
           transform: rotate(342deg);
 }
 
-img.profile-pic {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 10px;
-}
 
-img.profile-pic.left {
-  left: 10px;
-}
-
-img.profile-pic.right {
-  right: 10px;
-}
 
 .ion-email {
   float: right;
@@ -350,8 +336,7 @@ img.profile-pic.right {
   display: inline-block;
   padding: 10px 18px;
   position: relative;
-  margin: 10px;
-  max-width: 80%;
+  margin: 10px 0px;
 }
 
 .chat-bubble:before {
@@ -366,7 +351,6 @@ img.profile-pic.right {
 .chat-bubble.left {
   background-color: #fff;
   float: left;
-  margin-left: 55px;
 }
 
 .chat-bubble.left:before {
@@ -382,7 +366,6 @@ img.profile-pic.right {
   background-color: #434343;
   color: #fff;
   float: right;
-  margin-right: 55px;
 }
 
 .chat-bubble.right:before {
@@ -416,21 +399,16 @@ img.profile-pic.right {
 }
 .profile-pic.left {
     left: 10px;
+    float:right;
 }
-.profile-pic {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 10px;
-}
+
 .profile-pic.right {
     right: 10px;
 }
-.profile-pic {
+.profile-pic {    
+    -webkit-user-drag: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    position: absolute;
-    bottom: 10px;
+    margin: 10px 0
 }
