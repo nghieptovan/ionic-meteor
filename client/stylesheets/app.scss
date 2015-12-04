@@ -2,6 +2,7 @@ $positive: #DE4F4F;
 $loading-font-size: 22px;
 $color-font: #73d331;
 $color-white: #fff;
+$color-green: #33cd5f;
 
 @import 'fonts.css';
 @import 'circle.css';
@@ -105,7 +106,7 @@ body, .ionic-body {
     position: relative;
     color: #fff;
     background-color: #33cd5f;
-    padding: 0 15px;
+    padding: 0 10px;
     border-radius: 5px;
 }
 .img-background{
@@ -150,8 +151,15 @@ body, .ionic-body {
 .app-font-color{
 	color: $color-font !important;
 }
+.app-font-color-green{
+	color: $color-green;
+}
 .app-font-color-white{
 	color: $color-white;
+}
+.icon-record{
+	font-size: 0.3em;
+	line-height:44px;
 }
 .user-name{
 	font-size:20px;
@@ -319,6 +327,11 @@ body, .ionic-body {
 .send-chat{
 	bottom:18px;
 }	
+
+.item-message-list
+{
+margin-bottom: 50px;
+}
 @media screen and (max-width: 320px) {
 	.user-information{
 	    margin-top: -150px;
