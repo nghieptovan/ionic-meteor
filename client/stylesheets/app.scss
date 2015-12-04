@@ -65,6 +65,8 @@ body, .ionic-body {
 
 .no-border {
   text-decoration: none;
+   background-color: transparent;
+   border: 0;
 }
 
 .messages-div {
@@ -93,7 +95,6 @@ body, .ionic-body {
   background-color: #99ca3c;
   border: 0;
 }
-
 .status {
   max-width: 180px;
   overflow: hidden;
@@ -312,29 +313,33 @@ body, .ionic-body {
   position: relative;
   top: 0px;
 }
-
+.become-listener{
+    bottom: 20px;
+    padding: 0 20px;
+}
 .top-avatar img {
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
-  margin-left: 85px;
-  margin-top: 30px;
+  width: 34%;
+    height: 34%;
+	margin-left: 33%;
+    margin-top: 20px;
   border: 4px solid #fff;
 }
 
 .top-avatar:before {
-  border-left: 400px solid #fff;
-  border-top: 100px solid transparent;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  content: '';
-  bottom: 0;
+  	border-left: 270px solid #FFD;
+    border-top: 145px solid transparent;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    content: '';
+    bottom: 0;
 }
 
 .content-person {
   width: 100%;
   position: relative;
+  margin-top: -45px;
 }
 
 .top-avatar p {
