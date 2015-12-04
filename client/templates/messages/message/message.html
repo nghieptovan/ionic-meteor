@@ -7,10 +7,7 @@
 	<icon class="ion-record icon-record app-font-color-green"></icon>
 	Sarah
 </h2>
-{{/ionHeaderBar}}
-
-
- {{#ionView}} {{#ionContent class="message-div"}}
+{{/ionHeaderBar}} {{#ionView}} {{#ionContent class="message-div"}}
 
 
 <div class="content padding">
@@ -70,14 +67,17 @@
 
 			</div>
 		</li>
-		 <li class="item item-message">
+		<li class="item item-message">
 			<div>
-				<h4 class="time">9/25 13:47</h4> <img class="profile-pic left"
+				<h4 class="time">9/25 13:47</h4>
+				<img class="profile-pic left"
 					src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320" />
 
 				<div class="chat-bubble left">
 
-					<div class="message">I personally think Krav Maga is the best martial art style. Krav Maga is designed to quickly neutralize threats. The moves aren't flashly; they're simple and often dirty.</div>
+					<div class="message">I personally think Krav Maga is the best
+						martial art style. Krav Maga is designed to quickly neutralize
+						threats. The moves aren't flashly; they're simple and often dirty.</div>
 				</div>
 
 			</div>
@@ -130,21 +130,24 @@
 
 </div>
 
-{{/ionContent}} {{/ionView}} 
-<ion-subfooter-bar
+{{/ionContent}} {{/ionView}} <ion-subfooter-bar
 	class="bar bar-subfooter bar-light padding"> <span
-	class="request-chat button button-block button-balanced">
-	Request chat </span> </ion-subfooter-bar>
+	class="request-chat button button-block button-balanced"> <icon
+		class="ion-social-usd icon-usd"></icon> Send donation
+</span> </ion-subfooter-bar>
 
-<div class="bar bar-footer stable-bg footer-message">
-	<div class="row">
+<div class="bar bar-footer stable-bg">
+	<div class="row footer-message">
 		<div class="col col-10">
-			<icon class="ion-plus app-font-color-green" data-action="share-product"></icon>
+			<icon class="ion-plus icon-plus app-font-color-green"
+				data-action="share-product"></icon>
 		</div>
 
 		<div class="col col-70">
-			<span class="send-chat button button-block button-outline">
-				type here to start chat again </span>
+			<input type="text" class="txt-startchat" placeholder="type here to start chat again">
+
+			<!-- <span class="send-chat button button-block button-outline">
+				type here to start chat again </span> -->
 		</div>
 		<div class="col col-20">
 			<icon class="ion-ios-videocam icon-videocam"></icon>

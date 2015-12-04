@@ -79,7 +79,7 @@ body, .ionic-body {
   color: #d3d3d3;
   margin: 0;
   position: relative;
-  bottom: 10px;
+  bottom: 15px;
   left: 10px;
 }
 
@@ -109,17 +109,36 @@ body, .ionic-body {
 .send-request {
   bottom: 19px;
 }
-
-.icon-videocam {
-  font-size: 2em;
-  bottom: 5px;
-  position: relative;
-  color: #fff;
-  background-color: #33cd5f;
-  padding: 0 10px;
-  border-radius: 5px;
+.txt-startchat
+{
+	height: 1.7em !important;
+    top: 5px;
+    position: relative;
+    padding: 0 5px;
+    border-radius: 5px;
 }
-
+.action-sheet-group .button, .action-sheet {
+    color: steelblue;
+}
+.icon-videocam {
+    font-size: 1.6em;
+    position: relative;
+    color: #fff;
+    background-color: #33cd5f;
+    padding: 0 10px;
+    border-radius: 5px;
+    top: 6px;
+}
+.icon-usd{
+	border: 2px #FFF solid;
+    padding: 0px 3px;
+    border-radius: 50%;
+}
+.icon-plus{
+	font-size: 1.7em;
+    top: 5px;
+    position: relative;
+}
 .img-background {
   width: 100%;
   height: auto;
@@ -131,7 +150,10 @@ body, .ionic-body {
   font-weight: 400;
   font-size: 1.3em;
 }
-
+.footer-message{
+    bottom: 11px;
+    position: relative;
+}
 .tag-name {
   margin: 0px 5px;
   border: 0 !important;
@@ -183,12 +205,16 @@ body, .ionic-body {
 .icon-record {
   font-size: 0.3em;
   line-height: 44px;
+  position: relative;
+  bottom: 3px;
 }
 
 .user-name {
   font-size: 20px;
 }
-
+.row-name {
+    padding: 0 5px;
+}
 .user-address {
   margin-left: 10px;
   font-size: 14px;

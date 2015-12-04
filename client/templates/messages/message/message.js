@@ -3,8 +3,8 @@ Template.message.events({
     IonActionSheet.show({
       titleText: 'What would you like to do?',
       buttons: [
-        { text: '<h4>Camera</h4>' },
-        { text: '<h4>Media Library</h4>' },
+        { text: '<h4 class="action-sheet">Camera</h4>' },
+        { text: '<h4 class="action-sheet">Media Library</h4>' },
       ],
       cancelText: 'Cancel',
       buttonClicked: function(index) {
