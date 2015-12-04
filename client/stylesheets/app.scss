@@ -4,6 +4,8 @@ $color-font: #73d331;
 $color-white: #fff;
 $color-green: #33cd5f;
 $color-steelblue: steelblue;
+$color-gray: #d9d9d9;
+$color-red: #e44036;
 @import 'fonts.css';
 @import 'circle.css';
 
@@ -130,6 +132,16 @@ body, .ionic-body {
     border-radius: 5px;
     top: 6px;
 }
+.icon-videocam2 {
+    font-size: 1.6em;
+    position: relative;
+    color: #fff;
+    background-color: $color-gray;
+    padding: 0 10px;
+    border-radius: 5px;
+    top: 6px;
+}
+
 .icon-usd{
 	border: 2px #FFF solid;
     padding: 0px 3px;
@@ -205,13 +217,18 @@ body, .ionic-body {
 .app-font-color-green {
   color: $color-green;
 }
+.app-font-color-red {
+	color: $color-red;
+}
 .app-font-color-steelblue{
   color: $color-steelblue;
 }
 .app-font-color-white {
   color: $color-white;
 }
-
+.app-font-color-gray {
+	color: $color-gray;
+}
 .icon-record {
   font-size: 0.3em;
   line-height: 44px;
@@ -411,7 +428,29 @@ body, .ionic-body {
 .item-message-list {
   margin-bottom: 50px;
 }
-
+.top-content{
+	position:relative;
+	text-align: center;
+}
+.icon-request{
+	font-size: 6em;
+    margin: 0 45px;
+    position: relative;
+    top: 40px;;
+    
+}
+.top-content h3{
+	margin-top: 50%;
+	font-family: lorabold;
+}
+.top-content p{
+	width: 60%;
+    margin: 0 auto;
+    font-family: lato;
+}
+.bot-content{
+	position:relative;
+}
 @media screen and (max-width: 320px) {
   .user-information {
     margin-top: -150px;
