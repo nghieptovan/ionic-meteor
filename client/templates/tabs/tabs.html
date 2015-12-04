@@ -1,15 +1,15 @@
 <template name="tabs">
-        {{#if isAndroid }}
-   {{#ionTabs style="android" class="tabs-background-positive tabs-color-light tabs-icon-only"}}
-     {{> ionTab path="search" icon="search"}}
-     {{> ionTab path="messages" icon="chatboxes"}}
-     {{> ionTab path="person" icon="ios-person"}}
-   {{/ionTabs}}
- {{else}}
-   {{#ionTabs class="tabs-icon-only tabs-stable tabs-remove-class"}}
-     {{> ionTab path="search" icon="search" }}
-     {{> ionTab path="messages" icon="chatboxes"}}
-     {{> ionTab class="tab-sidemenu" icon="ios-person"}}
-   {{/ionTabs}}
- {{/if}}
- </template>
+    {{#if isAndroid}}
+        {{#ionTabs style="android" class="tabs-background-positive tabs-color-light tabs-icon-only"}}
+            {{> ionTab path="search" icon="android-search"}}
+            {{> ionTab path="messages" icon="android-chat"}}
+            {{> ionTab icon="android-person" class="tab-sidemenu"}}
+        {{/ionTabs}}
+    {{else}}
+        {{#ionTabs class="tabs-icon-only tabs-stable tabs-remove-class"}}
+            {{> ionTab path="search" iconOff="ios-search" iconOn="ios-search"}}
+            {{> ionTab path="messages" iconOff="chatboxes" iconOn="chatboxes"}}
+            {{> ionTab iconOff="ios-person-outline" iconOn="ios-person" class="tab-sidemenu"}}
+        {{/ionTabs}}
+    {{/if}}
+</template>

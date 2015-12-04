@@ -1,68 +1,81 @@
 <template name="search">
-{{#ionView}}
-    
+    {{#ionView}}
 
-	{{#ionContent}}
-	  
-	  <div class="info-user {{isActiveRoute regex='search'}}" >
-	  	<img class="img-background" src="images/avt.png">
-	  </div> 
-	  
-	  <div class="row user-information">
-	  <div>
-	  <div class="rating-user" data-ion-modal="ratingModal">
-			  	  <span class="ion-star custom-icon" data-pack="default" data-tags="favorite" style="display: inline-block;"></span>
-				  <span class="ion-star custom-icon" data-pack="default" data-tags="favorite" style="display: inline-block;"></span>
-				  <span class="ion-star custom-icon" data-pack="default" data-tags="favorite" style="display: inline-block;"></span>
-				  <span class="ion-star custom-icon" data-pack="default" data-tags="favorite" style="display: inline-block;"></span>
-				  <span class="ion-star custom-icon-nocolor" data-pack="default" data-tags="favorite" style="display: inline-block;"></span>
-				  <span class="app-font-color">(5)</span>
-			  	</div>
-			  	<h4>Adam Blackwel</h4>
-			  	<icon class="ion-location app-font-color"></icon><span class="user-address">San Francisco, CA</span>
-	  </div>
-			  	
-	  </div>
 
-			<div class="padding">
-			
-			<button class="button button-block padding-horizontal request-chat app-font-color-white"><icon class="ion-paper-airplane"> Request Chat</icon></button>
-		  
-		
-			  <div class="row">
+        {{#ionContent}}
+
+            <div class="info-user {{isActiveRoute regex='search'}}">
+                <img class="img-background" src="images/avt.png">
+            </div>
+
+            <div class="row user-information">
+                <div>
+                    <div class="rating-user" data-ion-modal="ratingModal">
+                        <span class="ion-star custom-icon" data-pack="default" data-tags="favorite"
+                              style="display: inline-block;"></span>
+                        <span class="ion-star custom-icon" data-pack="default" data-tags="favorite"
+                              style="display: inline-block;"></span>
+                        <span class="ion-star custom-icon" data-pack="default" data-tags="favorite"
+                              style="display: inline-block;"></span>
+                        <span class="ion-star custom-icon" data-pack="default" data-tags="favorite"
+                              style="display: inline-block;"></span>
+                        <span class="ion-star custom-icon-nocolor" data-pack="default" data-tags="favorite"
+                              style="display: inline-block;"></span>
+                        <span class="app-font-color">(5)</span>
+                    </div>
+                    <h4>Adam Blackwel</h4>
+                    <icon class="ion-location app-font-color"></icon>
+                    <span class="user-address">San Francisco, CA</span>
+                </div>
+
+            </div>
+
+            <div class="padding">
+
+                <button class="button button-block padding-horizontal request-chat app-font-color-white">
+                    <icon class="ion-paper-airplane"> Request Chat</icon>
+                </button>
+
+
+                <div class="row">
 			  	<span class="frist-message">
-			  	<p>I am the manager of Toys R in Times Square with an MBA from Cornell University. I enjoy all kind of sports and coach my son's track team.</p><br>
-			  	<p>I have experience training and coaching people of all ages on staying fit and keeping a productive workout routine. I personally have a blog documenting my own habits and ways I am improving own fitness.</p>
+			  	<p>I am the manager of Toys R in Times Square with an MBA from Cornell University. I enjoy all kind of
+                    sports and coach my son's track team.</p>
+			  	<p>I have experience training and coaching people of all ages on staying fit and keeping a productive
+                    workout routine. I personally have a blog documenting my own habits and ways I am improving own
+                    fitness.</p>
 			  	</span>
-			  </div>
+                </div>
 				
 				<span class="second-message">
-			  	<icon class="ion-quote qoute-class"></icon>His knowledge and personality are incredibly good. must talk guy! <icon class="ion-quote qoute-class"></icon>
-				</span><br>				
-				
-				
-				<span>- Heard administrator</span>
-				
+			  	<icon class="ion-quote qoute-class"></icon>His knowledge and personality are incredibly good. must talk guy! <icon
+                        class="ion-quote qoute-class"></icon>
+				</span><br>
 
-		  <div class="row">
-		  <span class="button button-small tag-name">international</span>
-		  <span class="button button-small tag-name">friendship</span>
-		  <span class="button button-small tag-name">health care</span>
-		  
-		  </div>
-		  <!-- <div class="tag-name">
-		  	<span>international</span><span>friendship</span><span>health care</span>
-		  </div> -->
-	  		<div class="other-picture">
-		  		<img src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
-	  			<img src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
-	    	</div>
-	  
-	  </div>
-		  
-	  
-	  	  
-	{{/ionContent}}
-    
-  {{/ionView}}
+
+                <span>- Heard administrator</span>
+
+                <p></p>
+
+                <div class="row">
+                    <span class="button button-small tag-name">international</span>
+                    <span class="button button-small tag-name">friendship</span>
+                    <span class="button button-small tag-name">health care</span>
+
+                </div>
+                <!-- <div class="tag-name">
+                    <span>international</span><span>friendship</span><span>health care</span>
+                </div> -->
+                <div class="other-picture">
+                    <img src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
+                    <img src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
+                </div>
+
+            </div>
+
+
+
+        {{/ionContent}}
+
+    {{/ionView}}
 </template>
