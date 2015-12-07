@@ -4,9 +4,10 @@ $color-font: #61d116;
 $color-white: #fff;
 $color-green: #33cd5f;
 $color-steelblue: steelblue;
-$color-gray: #d9d9d9;
+$color-gray: #898989;
 $color-red: #e0201d;
 $color-background: #ededed;
+$color-done: #20ade1;
 @import 'fonts.css';
 @import 'circle.css';
 
@@ -80,7 +81,7 @@ body, .ionic-body {
 }
 
 .info-person p {
-  color: #d3d3d3;
+  color: #898989;
   margin: 0;
   position: relative;
   bottom: 15px;
@@ -121,6 +122,7 @@ body, .ionic-body {
     top: 5px;
     position: relative;
     padding: 0 5px;
+    color: #cbcbcb !important;
     border-radius: 5px;
 }
 .action-sheet-group .button, .action-sheet, .app-font-color-steelblue {
@@ -139,7 +141,7 @@ body, .ionic-body {
     font-size: 1.6em;
     position: relative;
     color: #fff;
-    background-color: $color-gray;
+    background-color: #cfcfcf;
     padding: 0 10px;
     border-radius: 5px;
     top: 6px;
@@ -154,6 +156,7 @@ body, .ionic-body {
 	font-size: 1.7em;
     top: 5px;
     position: relative;
+    color: #cfcfcf;
     
 }
 .img-mastercard{
@@ -167,7 +170,9 @@ body, .ionic-body {
   height: auto;
   max-height: 400px;
 }
-
+.message-bg{
+	background-color: #f5f6f6;
+}
 .second-message {
   color: #73d331;
   font-weight: 400;
@@ -218,7 +223,9 @@ body, .ionic-body {
 .app-font-color {
   color: $color-font !important;
 }
-
+.app-font-color-done{
+	color: $color-done !important;
+}
 .app-font-color-green {
   color: $color-green;
 }
@@ -246,7 +253,9 @@ body, .ionic-body {
 	  bottom: 3px;
 	  color: $color-red;
 }
-
+.input-label {
+    color: #343334;
+}
 .user-name {
   font-size: 20px;
 }
@@ -383,7 +392,7 @@ body, .ionic-body {
 .top-avatar p {
   text-align: center;
   font-size: 18px;
-  color: #c2c2c2;
+  color: #a0a0a0;
 }
 
 .header-modal-profile {
@@ -412,7 +421,11 @@ body, .ionic-body {
   white-space: normal !important;
   background-color: transparent;
 }
-
+.button-close{
+	background-color: #333333;
+	border-color: #333333;
+	color: #fff;
+}
 .rating-chat {
   height: 270px;
   width: 100%;

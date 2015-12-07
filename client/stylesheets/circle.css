@@ -365,14 +365,14 @@
 }
 
 .chat-bubble.right {
-  background-color: #434343;
+  background-color: #898989;
   color: #fff;
   right: 10px;
   float:right;
 }
 
 .chat-bubble.right:before {
-  background-color: #434343;
+  background-color: #898989;
   right: -2px;
   top: 2px;
   -webkit-transform: rotate(139deg);
