@@ -40,7 +40,7 @@
 .pie-wrapper .pie .half-circle {
   height: 100%;
   width: 100%;
-  border: 0.08em solid #c1c1c1;
+  border: 0.08em solid #e8e7e7;
   border-radius: 50%;
   clip: rect(0, 0.35em, 0.7em, 0);
   left: 0;
@@ -71,7 +71,7 @@
 .pie-wrapper .shadow {
   	height: 100%;
     width: 100%;
-    border: 0.08em solid #99ca3c;
+    border: 0.08em solid #88c522;
     border-radius: 50%;
 }
 .pie-wrapper.style-2 .label {
@@ -103,7 +103,7 @@
   display: none;
 }
 .pie-wrapper.progress-10 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-10 .pie .left-side {
   -webkit-transform: rotate(36deg);
@@ -116,7 +116,7 @@
   display: none;
 }
 .pie-wrapper.progress-20 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-20 .pie .left-side {
   -webkit-transform: rotate(72deg);
@@ -129,7 +129,7 @@
   display: none;
 }
 .pie-wrapper.progress-30 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-30 .pie .left-side {
   -webkit-transform: rotate(108deg);
@@ -141,7 +141,7 @@
   display: none;
 }
 .pie-wrapper.progress-40 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-40 .pie .left-side {
   -webkit-transform: rotate(144deg);
@@ -154,7 +154,7 @@
   display: none;
 }
 .pie-wrapper.progress-50 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-50 .pie .left-side {
   -webkit-transform: rotate(180deg);
@@ -172,7 +172,7 @@
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-51 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-51 .pie .left-side {
   -webkit-transform: rotate(183.6deg);
@@ -190,7 +190,7 @@
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-52 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-52 .pie .left-side {
   -webkit-transform: rotate(187.2deg);
@@ -209,7 +209,7 @@
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-55 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-55 .pie .left-side {
   -webkit-transform: rotate(198deg);
@@ -227,7 +227,7 @@
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-60 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-60 .pie .left-side {
   -webkit-transform: rotate(216deg);
@@ -245,7 +245,7 @@
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-90 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-90 .pie .left-side {
   -webkit-transform: rotate(324deg);
@@ -258,7 +258,7 @@
   display: none;
 }
 .pie-wrapper.progress-45 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-45 .pie .left-side {
   -webkit-transform: rotate(162deg);
@@ -276,7 +276,7 @@
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-75 .pie .half-circle {
-  border-color: #ccc;
+  border-color: #e8e7e7;
 }
 .pie-wrapper.progress-75 .pie .left-side {
   -webkit-transform: rotate(270deg);
