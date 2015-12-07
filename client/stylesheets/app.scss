@@ -68,6 +68,7 @@ body, .ionic-body {
     margin: 0;
     position: relative;
     font-size: 13px;
+    left: 10px;
 }
 
 }
@@ -383,6 +384,10 @@ body, .ionic-body {
 .become-listener{
     bottom: 20px;
     padding: 0 20px;
+}
+
+.become-listener > button{
+  font-size: 16px !important;
 }
 
 .top-avatar:before {
