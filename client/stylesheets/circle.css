@@ -9,7 +9,7 @@
 }
 .imgthumb > img {
     border-radius: 50%;
-    border: 1px #fff solid;
+    border: 2px #fff solid;
     height: 53px;
     margin: 8px;
     position: absolute;
@@ -40,7 +40,7 @@
 .pie-wrapper .pie .half-circle {
   height: 100%;
   width: 100%;
-  border: 0.08em solid #e8e7e7;
+  border: 0.075em solid #e8e7e7;
   border-radius: 50%;
   clip: rect(0, 0.35em, 0.7em, 0);
   left: 0;
@@ -71,7 +71,7 @@
 .pie-wrapper .shadow {
   	height: 100%;
     width: 100%;
-    border: 0.08em solid #88c522;
+    border: 0.075em solid #88c522;
     border-radius: 50%;
 }
 .pie-wrapper.style-2 .label {

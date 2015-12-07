@@ -81,11 +81,12 @@ body, .ionic-body {
 }
 
 .info-person p {
-  color: #898989;
-  margin: 0;
-  position: relative;
-  bottom: 15px;
-  left: 10px;
+      color: #898989;
+    margin: 0;
+    position: relative;
+    bottom: 3px;
+    left: 10px;
+    font-size: 13px;
 }
 
 .avatar-person {
@@ -100,6 +101,7 @@ body, .ionic-body {
     min-height: 18px;
     line-height: 14px;
     top: 11px;
+    float: right;
 }
 .status {
   max-width: 180px;
@@ -261,6 +263,10 @@ body, .ionic-body {
 }
 .row-name {
     padding: 0 5px;
+    margin-top: -10px;
+}
+.row-name h4{
+ font-weight: 400;
 }
 .user-address {
   margin-left: 10px;
@@ -475,6 +481,9 @@ body, .ionic-body {
 }
 .bot-content{
 	position:relative;
+}
+.user-information span{
+	font-size: 14px;
 }
 @media screen and (max-width: 320px) {
   .user-information {
