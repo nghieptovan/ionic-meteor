@@ -82,6 +82,7 @@ body, .ionic-body {
 
 .messages-div {
   margin-bottom: 5px !important;
+  border-radius: 5px;
 }
 
 .message-div {
@@ -189,6 +190,7 @@ body, .ionic-body {
 }
 .tag-name {
   margin: 0px 5px;
+  padding: 0 5px;
   border: 0 !important;
   background-color: #ebebeb;
   color: #7d7c7c;
@@ -386,7 +388,7 @@ body, .ionic-body {
 }
 
 .top-avatar:before {
-  	border-left: 270px solid #FFD;
+  	border-left: 270px solid #fff;
     border-top: 145px solid transparent;
     width: 100%;
     height: auto;
