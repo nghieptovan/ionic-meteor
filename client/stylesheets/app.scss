@@ -300,9 +300,12 @@ body, .ionic-body {
 
 .content-modal {
   position: relative;
-  margin: 40px 0px;
+  margin: 40px 0px 60px 0px;
 }
-
+.rating-footer{
+	height: 5em;
+	background-position-y: 100%;
+}
 .item-avatar2 {
   display: block;
   position: relative;
