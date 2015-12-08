@@ -76,6 +76,7 @@ body, .ionic-body {
 .no-border {
   text-decoration: none;
    background-color: transparent;
+   background: transparent;
    border: 0;
 }
 
@@ -457,6 +458,8 @@ body, .ionic-body {
 .request-chat {
   height: 20px;
   background-color: $color-font;
+  position: relative;
+  bottom: 3px;
 }
 
 .send-chat {

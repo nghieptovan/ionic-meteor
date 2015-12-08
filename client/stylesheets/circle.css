@@ -236,23 +236,6 @@
 }
 
 
-.pie-wrapper.progress-90 .pie {
-  clip: rect(auto, auto, auto, auto);
-}
-.pie-wrapper.progress-90 .pie .right-side {
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-.pie-wrapper.progress-90 .pie .half-circle {
-  border-color: #e8e7e7;
-}
-.pie-wrapper.progress-90 .pie .left-side {
-  -webkit-transform: rotate(324deg);
-      -ms-transform: rotate(324deg);
-          transform: rotate(324deg);
-}
-
 
 .pie-wrapper.progress-45 .pie .right-side {
   display: none;

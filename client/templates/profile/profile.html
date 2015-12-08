@@ -1,0 +1,38 @@
+<template name="profile"> 
+
+<div class="header-modal-profile">
+          	<icon class="ion-close-round app-font-color-white" style="font-size:32px;"></icon>
+          	
+          	<button data-ion-modal="editProfileModal" class="button button-small" style="float:right;">
+			  Edit profile
+			</button>
+          </div>
+<div class="content open-content no-header overflow-scroll">
+ <div class="info-user {{isActiveRoute regex='search'}}">
+                <img class="img-background" src="images/avt.png">
+            </div>
+
+            <div class="row user-information">
+                <div>
+                    <h4>Adam Blackwel</h4>
+                    <icon class="ion-location app-font-color"></icon>
+                    <span class="user-address">San Francisco, CA</span>
+                </div>
+
+            </div>
+
+            <div class="padding">
+
+               
+
+                <div class="row">
+                    <button class="button button-small tag-name">international</button>
+                    <button class="button button-small tag-name">friendship</button>
+                    <button class="button button-small tag-name">health care</button>
+
+                </div>
+               
+
+            </div>
+</div>
+</template>

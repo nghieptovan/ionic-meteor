@@ -7,20 +7,20 @@
 		
 		<div class="content-person">
 
-			  <a data-ion-modal="profileModal" href="#" class="item item-icon-left no-border">
+			  {{#linkTo route="profile" class="item item-icon-left no-border"}}
 			    <i class="icon ion-ios-person-outline"></i>
 			    Profile
-			  </a>
+			  {{/linkTo}}
 			
-			  <a data-ion-modal="paymentModal" href="#" class="item item-icon-left no-border">
+			  {{#linkTo route="payment" class="item item-icon-left no-border"}}
 			    <i class="icon ion-card"></i>
 			    Payment
-			  </a>
+			  {{/linkTo}}
 			
-			  <a data-ion-modal="settingsModal" href="#" class="item item-icon-left no-border">
-			    <i class="icon ion-ios-gear-outline"></i>
-			    Settings
-			  </a>
+
+			    {{#linkTo route="settings" class="item item-icon-left no-border"}}<i class="icon ion-ios-gear-outline"></i>
+			    Settings{{/linkTo}}
+			  
 		</div>
 		<div class="bar no-border become-listener">
 		  <button class="button button-block button-close" data-ion-menu-close>

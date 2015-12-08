@@ -5,3 +5,10 @@ Template.person.rendered = function () {
 		console.log(JSON.stringify(user222));		
 	}
 };
+
+Template.person.events({
+    'click .item': function(e){
+    	IonSideMenu.snapper.close();	
+    }
+	
+});

@@ -1,0 +1,48 @@
+<template name="settings">
+
+    <div class="bar bar-header bar-stable">
+    
+   <button class="button icon-left ion-chevron-left button-clear button-dark">
+		
+	</button>
+	
+
+        <h2 class="title">Settings</h2>
+      </div>
+          
+
+          <div class="content open-content app-background has-header overflow-scroll">
+          
+          <div class="item padding" href="#">
+    Push notification
+    <label class="toggle toggle-positive pull-right" style="float:right;">
+             <input type="checkbox" checked="checked">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+  </div>
+          
+	          <div class="list" style="text-align:center;">
+
+  <div class="item padding item-divider"></div>
+<div class="item padding">
+    Delete account
+  </div>
+<div class="item padding">
+    Help center
+  </div>
+  <div class="item padding">
+    Terms and privacy
+  </div>
+  <div class="item padding item-divider"></div>
+  <div data-dismiss="modal" class="item padding item-logout">
+    {{> atNavButton}}
+  </div>
+  
+</div>
+		</div>
+
+          
+ 
+</template>

@@ -1,12 +1,8 @@
-Template.messages.helpers({
-  times: function () {
-    var times = [];
-    _(20).times(function(n){
-      times.push(n);
-    });
-    return times;
-  }
-});
 Template.messages.rendered = function () {
 	  //alert("2333333333");
 };
+Template.messages.events({
+	'click .open-content': function(e){
+		IonSideMenu.snapper.close();
+	}
+});
