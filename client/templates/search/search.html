@@ -4,8 +4,9 @@
 
         {{#ionContent class="open-content"}}
 
+    
             <div class="info-user {{isActiveRoute regex='search'}}">
-                <img class="img-background" src="images/avt.png">
+                <img class="img-background" src="images/{{user.avatar}}">
             </div>
 
             <div class="row user-information">
@@ -23,7 +24,7 @@
                               style="display: inline-block;"></span>
                         <span class="app-font-color">(5)</span>
                     </div>
-                    <h4>Adam Blackwel</h4>
+                    <h4>{{user.name}}</h4>
                     <icon class="ion-location app-font-color"></icon>
                     <span class="user-address">San Francisco, CA</span>
                 </div>
@@ -39,11 +40,7 @@
 
                 <div class="row">
 			  	<span class="frist-message">
-			  	<p>I am the manager of Toys R in Times Square with an MBA from Cornell University. I enjoy all kind of
-                    sports and coach my son's track team.</p>
-			  	<p>I have experience training and coaching people of all ages on staying fit and keeping a productive
-                    workout routine. I personally have a blog documenting my own habits and ways I am improving own
-                    fitness.</p>
+			  	{{user.first_text}}
 			  	</span>
                 </div>
 				
@@ -67,11 +64,14 @@
                     <span>international</span><span>friendship</span><span>health care</span>
                 </div> -->
                 <div class="other-picture">
-                    <img src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
-                    <img src="http://vignette2.wikia.nocookie.net/epicrapbattlesofhistory/images/f/f3/Best-forum-avatars-i0.png/revision/latest?cb=20150305165320">
+                    <img src="images/{{user.avatar}}">
+                    <img src="images/{{user.avatar}}">
                 </div>
 
             </div>
+
+    
+
 
 
 

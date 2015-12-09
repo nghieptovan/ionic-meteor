@@ -30,3 +30,8 @@ service-configuration
 useraccounts:iron-routing
 aldeed:template-extension
 zimme:active-route
+udondan:slick
+panter:slick-blaze
+reactive-var
+reactive-dict
+hedcet:touch-swipe

@@ -1,5 +1,5 @@
 Template.payment.events({
-	'click .ion-chevron-left': function(e){
+	'click .open-right': function(e){
     	var user = Meteor.user();
     	if(user){
     		IonSideMenu.snapper.open('right');    		
