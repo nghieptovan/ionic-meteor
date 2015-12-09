@@ -10,14 +10,18 @@ Template.search.events({
 			template.state.set('user', templateData[1]);
 	  }
 	  
+	  
 });
 Template.search.rendered = function() {
     $('#carousel').slick({
       dots: true,
       arrows: true
     });
-    $(".request-chat").swipe("enable");
-}
+    $('body').data('hammer').set({
+        drag_min_distance:1,
+        swipe_velocity:0.1
+      });
+};
 
 
 Template.search.created = function () {
@@ -29,5 +33,13 @@ Template.search.created = function () {
 Template.search.helpers({
 	user: function () {
 	    return Template.instance().state.get('user');
+	  },
+	templateGestures: {
+		'tap .other-picture': function (event, templateInstance, template) {
+			if(Template.instance().state.get('user').name =="ToNghiep2")
+				Template.instance().state.set('user', templateData[0]);
+			else
+				Template.instance().state.set('user', templateData[1]);
+		    }
 	  }
 });
